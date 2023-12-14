@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', arial, helvetica;
+    margin: 0;
+    font-size: 16px;
+    background-color:darkgrey;
+}
+
+.form-container {
+    margin: 100px auto;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    padding: 20px 0px;
+}
+
+.signin {
+    max-width: 600px;
+}
+
+h1 {
+    color: darkblue;
+    margin-left: 45px;
+}
+
+/* .signin > h1 {
+    margin-bottom: 0;
+} */
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-error {
+    align-self:flex-start;
+    margin-left: 50px;
+}
+
+#message-wrapper {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: #90ee90;
+    border-top: 2px solid #65e765;
+    border-bottom: 2px solid #65e765;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    color: darkblue;
+}
+
+form > input[type="text"], input[type="password"], input[type="email"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 300px;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border: 2px solid darkblue;
+    border-radius: 7px;
+}
+
+.signin-form-input {
+    max-width: 500px !important;
+    width: 100% !important;
+    height: 40px !important;
+}
+
+
+.label-wrapper {
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+.error {
+    font-size: 14px;
+    color: red;
+    margin-bottom: 20px;
+    max-width: 300px;
+    width: 100%;
+}
+
+form > input[type="submit"] {
+    width: 100px;
+    height: 35px;
+    margin-bottom: 15px;
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.signin-form > input[type="submit"] {
+    /* margin-top: 20px; */
+    width: 120px;
+    height: 40px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-btn {
+    margin: 15px;
+    width: 120px;
+    height: 40px;
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#footer-anchor {
+    text-decoration: none;
+    
+}
+
+.greetings-body {
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+}
+
+.greetings-text {
+    color:midnightblue;
+    margin-bottom: 43px;
+    margin-left: -10px;
+}
+
+#logout-btn {
+    background-color:cadetblue;
+    width: 200px;
+    height: 50px;
+    color: salmon;
+    border-radius: 7px;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
